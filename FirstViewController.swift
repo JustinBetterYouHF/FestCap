@@ -6,6 +6,11 @@
 //  Copyright © 2017 Bergeron, Justin G. All rights reserved.
 //
 
+// **********************************************************
+// Generic landing page that lists all festivals
+// (Most likely not needed just being used to layout tableview)
+// **********************************************************
+
 import UIKit
 
 class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
