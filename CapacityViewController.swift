@@ -6,6 +6,10 @@
 //  Copyright © 2017 Bergeron, Justin G. All rights reserved.
 //
 
+// **********************************************************
+// This is where the users will see the current capacity
+// **********************************************************
+
 import UIKit
 
 class CapacityViewController: UIViewController {
