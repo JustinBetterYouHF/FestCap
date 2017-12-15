@@ -6,6 +6,9 @@
 //  Copyright © 2017 Bergeron, Justin G. All rights reserved.
 //
 
+// **********************************************************
+// This is where the door counter will be able to + or - capacity
+// **********************************************************
 import UIKit
 
 class CapacityEditorViewController: UIViewController {
@@ -16,11 +19,6 @@ class CapacityEditorViewController: UIViewController {
     @IBOutlet var capacity: UILabel!
     @IBOutlet var venue: UILabel!
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
     override func viewWillAppear(_ animated: Bool) {
         venue.text = name
         
