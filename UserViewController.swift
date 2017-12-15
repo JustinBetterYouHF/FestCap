@@ -6,6 +6,10 @@
 //  Copyright © 2017 Bergeron, Justin G. All rights reserved.
 //
 
+// **********************************************************
+// This is where the users can see all the available venues at the festival
+// **********************************************************
+
 import UIKit
 
 class UserViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
@@ -20,13 +24,6 @@ class UserViewController: UIViewController, UITableViewDataSource, UITableViewDe
         let cell = UITableViewCell(style: UITableViewCellStyle.default, reuseIdentifier: "cell")
         cell.textLabel?.text = venues[indexPath.row]
         return cell
-    }
-    
-
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
