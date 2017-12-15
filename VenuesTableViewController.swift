@@ -6,6 +6,10 @@
 //  Copyright © 2017 Bergeron, Justin G. All rights reserved.
 //
 
+// **********************************************************
+// This is where the door counter will see the venues available to edit
+// **********************************************************
+
 import UIKit
 
 var RWF = Int()
@@ -19,13 +23,7 @@ class VenuesTableViewController: UIViewController, UITableViewDelegate, UITableV
     var name = String()
     
     let venues = ["Red Wing Framing", "Christ Episcopal Church", "Sheldon Theatre", "Red Wing Public Library", "Rivertown Comics & Games"]
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        print(name)
-    }
-    
+   
     override func viewWillAppear(_ animated: Bool) {
         self.title = name
     }
